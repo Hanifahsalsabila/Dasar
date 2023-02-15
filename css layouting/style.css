@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 900px;
+    height: 1000px;
+    background-color: aquamarine;
+    margin: 70px auto;
+}
+.header {
+    box-sizing: border-box;
+    height: 250px;
+    background-color: cadetblue;
+}
+.menu {
+    box-sizing: border-box;
+    height: 50px;
+    background-color: darkseagreen;
+}
+.content {
+    height: 600px;
+    background-color: darkslategray;
+
+}
+.sidebar {
+    height: 600px;
+    width: 30%;
+    background-color: darkslategray;
+    box-sizing: border-box;
+    float: left;
+}
+.main {
+    height: 600px;
+    width: 70%;
+    background-color: grey;
+    float: right;
+}
+.footer {
+    box-sizing: border-box;
+    height: 100px;
+    background-color: lightsalmon;
+
+}
